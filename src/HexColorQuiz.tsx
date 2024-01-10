@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./index.css";
 
-const Quiz = () => {
+const HexColorQuiz = () => {
   const [color, setColor] = useState<string>("red");
   const [flag, setFlag] = useState(0);
   const [choice1, setChoice1] = useState<string>("");
@@ -143,4 +143,4 @@ const Quiz = () => {
   );
 };
 
-export default Quiz;
+export default HexColorQuiz;
